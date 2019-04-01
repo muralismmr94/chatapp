@@ -1,0 +1,163 @@
+*{
+	box-sizing: border-box;
+	 width: 100%; 
+}
+  
+.singleChat {
+	font-family: "source sans pro", Helvetica, sans-serif;
+		
+}
+span{
+	font-size: 60%;
+	float:left;
+	margin-right:90px
+}
+.chat .chatMsg{
+	width: 100%;
+	padding: 10px;
+	margin:0px,0px,0px;
+	border-radius: 3%;
+	font-size: 20px;
+	font-family: "source sans pro", Helvetica, sans-serif;
+}
+.friend .chatMsg{  
+	font-family: "source sans pro", Helvetica, sans-serif; 
+	background: rgb(232, 240, 186) 100%;
+	color:black;
+	text-align: left;
+}
+.self .chatMsg{
+	color:rgb(14, 10, 10);
+	font-family: "source sans pro", Helvetica, sans-serif;
+	text-align: right;
+	background: linear-gradient(to bottom, rgba(248, 248, 246, 0.8) 0%, white);
+	border-radius: 5%;
+}
+  
+  
+  
+  /* Style the header */
+
+
+.sendclick{
+	width: 12%;
+	margin-left: 90%;
+	padding: 0%;
+	margin-top: -60px
+}
+  
+  
+  /* Users list. Create two columns/boxes that floats next to each other.*/
+nav {
+	float: left;
+	border-radius: 3%;
+	width: 29%;
+	height: 600px; /* only for demonstration, should be removed */
+	background-image: url("../../../../cs/6291d-bestlandspacegirlswomenanimemoviescartoonastractmulticoloranimaldogleopardlinuxwindowshdhightqualitywallpaper-2307465.jpg");
+	padding: 40px;
+	text-align: left;
+	cursor: pointer;
+	overflow-y:scroll;
+	overflow-x: scroll;
+	font-family: "source sans pro", Helvetica, sans-serif;
+		font-weight: 300;
+	
+	font-weight: bold;
+	color:black;
+	/* font-style: italic; */
+	text-align: center
+	
+}
+  
+  /* Style the list inside the menu */
+nav ul {
+	text-align: center;
+}
+  
+.gropChat{
+	font-family: "source sans pro", Helvetica, sans-serif;
+	float:right;
+	width: 70%;
+	height: 100%;  
+	margin: 0px 0px 0px;
+}
+  
+article {
+	float:right;
+	padding: 100px;
+	width: 71%;
+	height: 600px; 
+	
+	border-radius: 2%
+}
+  
+.username{
+	margin: 0px 10px 0px 0px;
+    color: black;
+    font-family: "source sans pro", Helvetica, sans-serif;
+    font-weight: 300;
+    height: 10%;}
+article section{
+	float:right;   
+	width: 100%;
+	height: 90%;
+	color: rgb(112, 180, 219);
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.text{ 
+	font-family: "source sans pro", Helvetica, sans-serif;
+	font-weight: 300;
+	
+	font-weight: bold;
+	width: 87%;
+	margin: 30px 70px 0px 0px;
+	box-sizing: border-box;
+	border: 0.5px solid #fff;
+  border-radius: 10px;
+	box-shadow: 0px 0px 0px rgb(238, 235, 235);
+	box-sizing: border-box;
+
+  margin: 5% auto;
+  text-align: center;
+  font-family: "source sans pro", Helvetica, sans-serif;
+
+  background: linear-gradient(to bottom,white);
+  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+	transform: scale(1);
+	/* border-block-end-color: black; */
+	border-color: rgb(236, 231, 231)
+}
+.con-list{
+	font-family: "source sans pro", Helvetica, sans-serif;
+	text-align: center;
+	
+}
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	opacity: 0.9;
+  }
+  
+  button:hover {
+	opacity:1;
+  }
+.dashboard{
+	
+		height: 100%;
+		margin: 0;
+		
+		background-repeat: repeat,	no-repeat,	no-repeat;
+		background-size: 50px 100px, cover,	cover;
+		background-position: top left, center center,	bottom center;
+		background-attachment: fixed, fixed,	fixed; 
+		font-family: "source sans pro", Helvetica, sans-serif;
+		font-weight: 300;
+		height: 10%;
+	
+}
