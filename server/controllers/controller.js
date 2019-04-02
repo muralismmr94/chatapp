@@ -106,7 +106,7 @@ module.exports.forgotPassword = (req, res) => {
         });
     }
 };
-
+//reset password
 module.exports.resetPassword = (req, res) => {
     console.log("inside forgotPassword");
     req.checkBody('password', 'password is not valid').isLength({ min: 4 });
