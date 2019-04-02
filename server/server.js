@@ -1,3 +1,14 @@
+/***************************************************************************
+ * Execution : 1.default node     cmd>node server.js
+ *             2.if nodemon installed  cmd>nodemon server.js
+ * purpose  : chatting two peoples
+ * @description
+ * @file    : server.js
+ * @overview :In this module contains the sending and receiving messages.
+ * @author  : Murali s <muralismmr94@gmail.com>
+ * @version :1.0
+ * 
+ ***************************************************************************/
 const http = require('http');
 
 // to include all modules or all files

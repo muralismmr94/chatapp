@@ -7,7 +7,7 @@
  * @author  : Murali s <muralismmr94@gmail.com>
  * @version :1.0
  * 
- */
+ ***************************************************************************/
 var app = angular.module('chatapp', ['ui.router','btford.socket-io']);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
