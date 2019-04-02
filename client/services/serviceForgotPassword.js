@@ -1,12 +1,14 @@
 app.service('serviceForgotPassword', function ($http, $location) {
 
-
+    //forgot password function
     this.forgotPassword = function (data, $scope) {
         $http({
+            //assigning value to http properties
             method: 'POST',
             url: 'http://localhost:4000/forgotPassword',
             data: data,
         }).then(
+            //successcallback of http function
             function successCallback(response) {
                 console.log("forgotPassword successfull ");
                 var userid = response.data.message[0]._id;
@@ -18,6 +20,7 @@ app.service('serviceForgotPassword', function ($http, $location) {
                 $location.path('/dashboard');
                 $scope.loginMessage = "login successfull";
             },
+            //error callback of http function
             function errorCallback(response) {
                 console.log("register Unsuccessfull ");
                 console.log(response);

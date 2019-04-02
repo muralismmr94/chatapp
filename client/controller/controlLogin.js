@@ -10,4 +10,4 @@ app.controller('controlLogin',function($scope,serviceLogin){
         //calling the service function.
         serviceLogin.login(data);
     }
-});
+});                                                                   
