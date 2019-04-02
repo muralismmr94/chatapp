@@ -30,7 +30,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 var expressValidator = require('express-validator')
  app.use(expressValidator());
-//importing socketIO to get connection between client and server.
 var chatController = require('./controllers/chatController');
 
 const mongoose = require('mongoose');
@@ -39,6 +38,7 @@ const  port =4000;
 var server = app.listen(port, () => {
     console.log("Server is listening to port "+port);
 })
+//importing socketIO to get connection between client and server.
 const io = require('socket.io')(server);
   // console.log("socket is connected");
 //checking for events connection will be listening  for incoming sockets.

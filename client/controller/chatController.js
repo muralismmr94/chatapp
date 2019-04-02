@@ -24,7 +24,7 @@ app.controller('chatController', function ($scope, SocketService, $state, chatSe
         }
     })
 
-
+    //get all users available in the db
     $scope.getAllUsers = function () {
         chatServices.getAllUsers($scope, token);
     }
@@ -61,7 +61,7 @@ app.controller('chatController', function ($scope, SocketService, $state, chatSe
 
 
 
-
+    // logout function
     $scope.logout = function () {
         localStorage.clear();
         //return back to login page
